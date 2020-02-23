@@ -45,6 +45,6 @@ public class Main_1120_문자열 {
 			if(result.charAt(i) != b.charAt(i)) cnt++;
 		}
 		
-		min = Math.min(min, cnt);
+		min = Math.min(min, cnt); 
 	}
 }
