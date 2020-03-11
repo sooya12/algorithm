@@ -49,4 +49,4 @@ public class Main_6603_로또 {
 		System.out.println();
 	}
 	
-} // end of class
+} // end of class 
