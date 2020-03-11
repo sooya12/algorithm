@@ -39,7 +39,7 @@ public class Main_6603_로또 {
 		result[idx] = numArr[target];
 		combination(numArr, r-1, idx+1, result, target+1);
 		combination(numArr, r, idx, result, target+1);
-	}
+	} 
 	
 
 	static void print(int[] arr) {
