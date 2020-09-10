@@ -8,7 +8,6 @@ public class Main_14503_로봇청소기 {
 
 	static int N, M; // 세로, 가로 크기
 	static int[][] map; // 영역
-	
 	static int cnt = 0; // 청소하는 칸의 개수
 	
 	public static void main(String[] args) throws IOException {
