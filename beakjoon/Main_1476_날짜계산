@@ -1,0 +1,31 @@
+import java.util.*;
+import java.io.*;
+
+public class Main_1476_날짜계산 {
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        int E = Integer.parseInt(st.nextToken());
+        int S = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
+
+        int maxE = 15, maxS = 28, maxM = 19;
+
+        int cnt = 1, e = 1, s = 1, m = 1;
+
+        while(true) {
+            if(E == e && S == s && M == m) {
+                break;
+            }
+
+            e = e % maxE + 1;
+            s = s % maxS + 1;
+            m = m % maxM + 1;
+            cnt ++;
+        }
+
+        System.out.println(cnt);
+    }
+}
